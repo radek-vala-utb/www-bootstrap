@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - přehled ukázek</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="./index.html">Bootstrap příklady</a>
+      </div>
+    </nav>
+
+    <header class="py-5 hero-section">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <span class="badge text-bg-primary rounded-pill mb-3">Rozcestník</span>
+            <h1 class="display-5 fw-bold mb-3">Ukázky rozdělené do menších HTML souborů</h1>
+            <p class="lead text-secondary mb-0">
+              Každá stránka se věnuje jednomu tématu. Kód je kratší, přehlednější
+              a vhodnější pro začátečníky při čtení HTML.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <div class="card border-0 shadow-lg demo-card">
+              <div class="card-body p-4">
+                <h2 class="h5 mb-3">Doporučené pořadí</h2>
+                <ol class="mb-0 ps-3">
+                  <li class="mb-2">Containers, rows a columns</li>
+                  <li class="mb-2">Utility třídy</li>
+                  <li class="mb-2">Komponenty</li>
+                  <li class="mb-2">Formuláře</li>
+                  <li>Kombinované příklady</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body p-4">
+                <p class="section-kicker">1. Základ</p>
+                <h2 class="h4">Containers a grid</h2>
+                <p class="text-secondary">
+                  `container`, `container-fluid`, `row`, `col`,
+                  pevné šířky, responsive sloupce, mezery a pořadí.
+                </p>
+                <a class="btn btn-primary" href="./01-containers-grid.html">Otevřít ukázku</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body p-4">
+                <p class="section-kicker">2. Stylování</p>
+                <h2 class="h4">Utility třídy</h2>
+                <p class="text-secondary">
+                  Spacing, barvy, typography, borders, shadow,
+                  display a flex utility.
+                </p>
+                <a class="btn btn-primary" href="./02-utilities.html">Otevřít ukázku</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body p-4">
+                <p class="section-kicker">3. UI</p>
+                <h2 class="h4">Komponenty</h2>
+                <p class="text-secondary">
+                  Alerts, buttons, badges, cards, tabs,
+                  accordion, modal a offcanvas.
+                </p>
+                <a class="btn btn-primary" href="./03-components.html">Otevřít ukázku</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body p-4">
+                <p class="section-kicker">4. Vstup</p>
+                <h2 class="h4">Formuláře</h2>
+                <p class="text-secondary">
+                  `form-control`, `form-select`, `input-group`,
+                  checkboxy, switche a validace.
+                </p>
+                <a class="btn btn-primary" href="./04-forms.html">Otevřít ukázku</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body p-4">
+                <p class="section-kicker">5. Praxe</p>
+                <h2 class="h4">Kombinované příklady</h2>
+                <p class="text-secondary">
+                  Jak z Bootstrapu skládat větší bloky a
+                  co je vhodné ukazovat dál.
+                </p>
+                <a class="btn btn-primary" href="./05-layout-examples.html">Otevřít ukázku</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <div class="card h-100 shadow-sm border-primary">
+              <div class="card-body p-4">
+                <p class="section-kicker">Poznámka</p>
+                <h2 class="h4">Jak s tím pracovat při výuce</h2>
+                <p class="text-secondary mb-0">
+                  Otevři vždy jen jednu stránku a vedle ní editor. Studenti tak
+                  uvidí kratší HTML a snáz pochopí, jak se jednotlivé části skládají.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-4 border-top bg-body">
+      <div class="container">
+        <p class="mb-0 text-secondary">Statické Bootstrap ukázky rozdělené do menších souborů.</p>
+      </div>
+    </footer>
+  </body>
+</html>

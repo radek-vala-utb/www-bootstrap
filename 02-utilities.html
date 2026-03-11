@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - utility třídy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="./index.html">Bootstrap příklady</a>
+      </div>
+    </nav>
+
+    <main class="py-5">
+      <div class="container">
+        <div class="page-intro">
+          <p class="section-kicker">2. Stylování</p>
+          <h1>Základní utility třídy</h1>
+          <p class="lead text-secondary mb-0">
+            Utility jsou krátké pomocné třídy. Umožní ti upravit vzhled bez psaní vlastního CSS.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4">Spacing a barvy</h2>
+                <div class="p-4 mb-3 rounded-4 bg-primary text-white">`p-4 bg-primary text-white`</div>
+                <div class="py-2 px-4 rounded-4 bg-warning-subtle text-dark border border-warning">
+                  `py-2 px-4 border border-warning`
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4">Display a flex</h2>
+                <div class="d-flex justify-content-between align-items-center gap-3 p-3 bg-body-tertiary rounded-4">
+                  <span class="badge text-bg-dark">`d-flex`</span>
+                  <span class="badge text-bg-primary">`justify-content-between`</span>
+                  <span class="badge text-bg-success">`align-items-center`</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4">Typography</h2>
+                <p class="fs-3 fw-bold mb-1">`fs-3 fw-bold`</p>
+                <p class="text-secondary text-uppercase small mb-0">`text-secondary text-uppercase small`</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4">Border a shadow</h2>
+                <div class="p-3 border border-2 border-info rounded-4 shadow-sm">
+                  `border border-2 rounded-4 shadow-sm`
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="h4">Viditelnost</h2>
+                <div class="d-none d-md-block p-3 bg-success-subtle rounded-4">
+                  Viditelné od `md` výš
+                </div>
+                <div class="d-md-none p-3 bg-danger-subtle rounded-4 mt-2">
+                  Viditelné jen pod `md`
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <a class="btn btn-outline-dark" href="./index.html">Zpět na rozcestník</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
